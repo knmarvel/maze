@@ -132,7 +132,7 @@ function checkForWallWin(playerRowCheck, playerColumnCheck) {
     wallWinChecker = map[playerRowCheck].charAt(playerColumnCheck);
     console.log(wallWinChecker)
    if (wallWinChecker === "W" || wallWinChecker === "S") {
-       alert("The way is shut. It was made by those who are Dead, and the Dead keep it, until the time comes. The way is shut.")
+       alert("Oof.")
        return wallWinChecker;
    }
    else if(wallWinChecker === "F") {
